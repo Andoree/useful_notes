@@ -1,0 +1,66 @@
+Формулы:
+\[\]
+\hm{} - перенос операции в формуле
+\begin{equation} - формула с нумерацией
+\label{key} - метка
+\eqref{key}
+\pageref{key}
+
+\frac - дробь, плохо
+\dfrac - в дроби сохраняется размер
+\section
+\subsection
+\times -- значок умножения
+\left	\right)	- подбор правильной высоты скобок
+\sin	\cap - пересечение	\cup - объединение	\bar - черта над переменной	\(wide)tilde	\overline - черта над всем выражением
+\varepsilon, \varphi
+
+
+\begin{multline} - многострочная формула
+
+
+
+\begin{align} - формулы
+	2 \times 2 &= 4 & 6 \times 8 &= 48\\
+	3 \times 3 &= 9 & 5 \times 5 &= 25\\
+	10 \times 10 &= 100 4 \times 4 &= 16   # - выравнивание в месте постановки амперсанда
+\end{align} - 
+
+
+\begin{equation}
+	\begin{aligned}
+		2 \times 2 &= 4 & 6 \times 8 &= 48\\
+		3 \times 3 &= 9 & 5 \times 5 &= 25\\
+		10 \times 10 &= 100 4 \times 4 &= 16   # - выравнивание в месте постановки амперсанда
+	\end{aligned} 
+\end{equation}
+
+Система уравнений
+\[\left\{
+	\begin{aligned}
+		2 \times 2 &= 4 & 6 \times 8 &= 48\\
+		3 \times 3 &= 9 & 5 \times 5 &= 25\\
+		10 \times 10 &= 100 4 \times 4 &= 16   # - выравнивание в месте постановки амперсанда
+	\end{aligned}
+\right.\]
+
+Кусочные функции (cases):
+	\[
+		|x| = \begin{cases}
+				x, &\text{если } x \ge 0 \\
+				-x, &\text{если } x < 0
+
+			   \end{cases}
+
+	\]
+
+
+
+Матрицы(pmatrix, vmatrix, bmatrix)
+\begin{pmatrix}
+	a_{11} & a_{12} & a_{13}\\
+	a_{21} & a_{22} & a_{23}\\
+\end{pmatrix}
+
+
+* - избавиться от нумерации
