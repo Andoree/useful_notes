@@ -21,13 +21,13 @@ def main():
     sym = word_1[0]
     if sym in lower_case_letters:
         next_letter_id = (lower_case_dict[sym] + 1) % alphabet_length
-        result += lower_case_letters[next_letter_id]
+        result += lower_case_letters[next_letter_id] + lower_case_letters[next_letter_id + 1]
     elif sym in upper_case_letters:
         next_letter_id = (upper_case_dict[sym] + 1) % alphabet_length
-        result += upper_case_letters[next_letter_id]
+        result += upper_case_letters[next_letter_id] +upper_case_letters[next_letter_id + 1]
     else:
         next_digit_id = (digits_dict[sym] + 1) % 10
-        result += digits[next_digit_id]
+        result += digits[next_digit_id] + digits[next_digit_id + 1]
         pass
     # Step 2
     sym = word_2[2]
